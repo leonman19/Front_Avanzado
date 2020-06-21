@@ -1,0 +1,120 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center /*space-evenly*/;
+    background: rgb(70, 31, 3);
+    z-index: 999;
+}
+
+.navbar-click {
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 11vw;
+    display: flex;
+    align-items: center;
+    background: rgb(70, 31, 3);
+    z-index: 997;
+}
+
+    .navbar-logo{
+        width: fit-content;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        color:yellow;
+        font-size: 6vw;
+        background: transparent;
+    }
+    .navbar-logo:hover{
+        color: rgb(255, 166, 0);
+        cursor: pointer;
+    }
+    .input-off{
+        display: none ;
+    }
+    .filter-container{
+        max-width: 40vw;
+    }
+    .input-on{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+     .button-search { 
+        width: fit-content;
+        padding: 0.15vw;
+        min-height: 18px;
+        padding-left: 0.5vw;
+        padding-right: 0.5vw;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgb(251, 255, 0);
+        border-radius: 1.2vw;
+        font-size: 1.5vw; 
+        font-weight: bold;
+        align-self: flex-end;
+    } 
+
+    .button-search:hover{
+        background: rgb(255, 166, 0);
+    }
+   
+    .input {
+        width: 37vw;
+        height: 2vw;
+        border-color: saddlebrown;
+        color:yellow;
+        background-color:  rgb(70, 31, 3);
+        font-weight: bolder;
+        border-radius: 0.75vw;        
+        font-size: 1.5vw;
+        margin-bottom: 3px;
+    }
+    .input::placeholder{
+        color: rgba(255, 255, 0, 0.609);
+        font-size: 1.5vw;
+    }
+
+    .limit{
+        width: 4vw;
+        height: 2vw;
+        border-color: saddlebrown;
+        color:yellow;
+        background-color:  rgb(70, 31, 3);
+        font-weight: bolder;
+        border-radius: 0.75vw;        
+        font-size: 1.5vw;
+        align-self: start;
+
+    }
+    
+    .year {
+        width: 6vw;
+        height: 2vw;
+        border-color: saddlebrown;
+        color:yellow;
+        background-color:  rgb(70, 31, 3);
+        font-weight: bolder;
+        border-radius: 0.75vw;        
+        font-size: 1.5vw;
+        align-self: start;
+    }
+
+    .year-off {
+        
+        width: 6vw;
+        height: 2vw;
+        border-color: saddlebrown;
+        color:yellow;
+        background-color:  rgb(70, 31, 3);
+        font-weight: bolder;
+        border-radius: 0.75vw;        
+        font-size: 2vw;
+        align-self: start;
+    }

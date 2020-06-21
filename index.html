@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BEERFLIX</title>
+    <link rel="shortcut icon" href="/img/icon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="
+    sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+    <!--styles-->
+    <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+
+<body>
+    <div class="background-image">
+    <!-- NAVBAR-SECTION-->
+    <nav id="navbar" class="navbar">
+        <div id="banner" class="navbar-logo">BeerFlix
+        </div>
+        <div class="navbar-actions">
+            <div class="filter-container">
+                <form id="search-form" class="input-off" novalidate>
+                    <input data-pattern-mismatch="Input invalid" placeholder="Name" id='input-search' class="input" type="text" title="Filtro texto">
+                    <input type="number" class="limit" title="filtro resultados" min="1" max="10" max-length="2" value="10">
+                    <input type="checkbox" class="date-enabled" title="Activar fecha">
+                    <input type="number" class="year" min="1850" max="2020" placeholder="Year" id="date-search" disabled="true" maxlength="4" title="filtro fecha">
+                    <button type="submit" class="button-search">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--NAVBAR-END-->
+<header>
+    <div class="headboard">
+        <picture>
+            <source
+            srcset="./img/beerflix@desktop.jpg"
+            media="(min-width:780px)">
+            <source  
+            srcset="./img/beerflix@tablet.jpg"
+            media="(min-width:400px)">
+            <img src="./img/beerflix@movil.jpg" class="image-1" alt="homer" > 
+        </picture>
+    </div>
+</header>   
+ <!--./img/homer@movil.jpg 320w, 
+     ./img/homer@desktop.jpg 1280w, -->
+    
+    <!--MAIN-SECTION-->
+    
+<main>    
+    <div id="container" class="cards-container">
+    </div>
+</main>
+    <!--MAIN-SECTION-END-->
+        
+        
+        <!--LOADER-->
+        
+
+
+    <!--LOADER-END-->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    <script type="module" src="/src/js/navbar.js"></script>
+    
+</div>
+</body>
+</html>

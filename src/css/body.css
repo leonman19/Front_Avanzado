@@ -1,0 +1,26 @@
+.image-1{
+    margin-top: 14vw;
+    width: 96%;
+    max-width: 96%;
+    margin-left: 2%;
+    max-height: 535px;
+    margin-bottom:2rem;
+    border-radius: 20px;
+}
+
+.card1{
+    background: rgba(211, 211, 211, 0.900);
+    min-height: fit-content;
+    padding: 1vw;
+    margin-bottom:2rem;
+    width: 85%;
+    margin-left: 7% ;
+    border-radius: 3vw;
+
+}
+
+body{
+    background: #1e130c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
